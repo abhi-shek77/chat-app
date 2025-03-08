@@ -56,3 +56,31 @@
     background-color: #077eff;
     cursor: pointer;
 }
+@media (max-width: 900px) {
+    .profile-container {
+        flex-direction: column; 
+        min-width: unset; 
+        width: 90%; 
+        padding: 20px;
+    }
+
+    .profile form {
+        padding: 20px;
+        width: 100%; 
+        text-align: center; 
+    }
+
+    .profile input, 
+    .profile textarea {
+        min-width: unset; 
+        width: 100%; 
+    }
+
+    .profile-pic {
+        max-width: 120px;
+    }
+
+    .profile label img {
+        width: 40px; 
+    }
+}
